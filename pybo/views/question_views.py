@@ -5,7 +5,7 @@ from werkzeug.utils import redirect
 from sqlalchemy import func
 
 from .. import db
-from pybo.models import Question, Answer, User
+from pybo.models import Question, Answer, User, question_voter
 from ..forms import QuestionForm, AnswerForm
 from pybo.views.auth_views import login_required
 
